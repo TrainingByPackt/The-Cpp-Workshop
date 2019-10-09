@@ -22,7 +22,7 @@ std::string TestCase() {
    return out.str();
 }
 
-TEST(Chapter3, Example4) {
+TEST(Chapter3, Exercise13) {
    EXPECT_EQ("\n\n", TestCase());
 }
 
