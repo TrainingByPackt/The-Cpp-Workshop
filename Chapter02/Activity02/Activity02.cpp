@@ -1,6 +1,7 @@
 // Activity 2: Number guessing game.
 #include <iostream>
 #include <string>
+#include <time.h>
 
 int main()
 {
