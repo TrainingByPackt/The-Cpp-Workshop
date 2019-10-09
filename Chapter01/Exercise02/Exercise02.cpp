@@ -1,10 +1,11 @@
 // Preprocessor directives activity.
 #include <iostream>
-
 #include <string>
 
-#
-define GRADE_C_THRESHOLD 25# define GRADE_B_THRESHOLD 50# define GRADE_A_THRESHOLD 75
+#define GRADE_C_THRESHOLD 25
+#define GRADE_B_THRESHOLD 50
+#define GRADE_A_THRESHOLD 75
+
 int main() {
   int value = 0;
   std::cout << "Please enter test score (0 - 100): ";
