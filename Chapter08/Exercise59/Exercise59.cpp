@@ -4,7 +4,7 @@ using namespace std;
 class Track
 { 
   public:
-  // m_ prefix added to member variables, to avoid naming conflicts with
+  // m_ prefix added to member variables, to avoid naming conflicts
 
     float m_lengthInSeconds;
     string m_trackName;
