@@ -1,24 +1,27 @@
 #include <iostream>
 #include <string>
+
 class Shape
 {
   public:
     int area = 0;
     protected:
     std::string color = "";
-private:
+  private:
     bool hasOutline = false;
 };
+
 class Square : private Shape
 {
 public:
   Square()
-{
-  area = 5;
-  color = "red";
-  hasOutline = true;
+  {
+	area = 5;
+	color = "red";
+	hasOutline = true;
+  };
 };
-};
+
 int main()
 {
   Square mySquare;
