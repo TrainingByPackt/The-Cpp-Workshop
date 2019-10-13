@@ -14,6 +14,7 @@ noisy_and_big* get_noisy_and_big(char const* str)
 {
     noisy_and_big* ownedp = new noisy_and_big;
     strcpy(ownedp->big_buffer_, str);
+	return ownedp;
 }
 
 int main()
