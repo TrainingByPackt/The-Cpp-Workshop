@@ -1,4 +1,4 @@
-//Chapter 7 : Example 3 (Problem with the code, a return value is missing, Pls see the text in bold and italic)
+//Chapter 7 : Exercise 51
 
 #include "pch.h"
 #include <iostream>
@@ -31,7 +31,7 @@ std::string TestCase() {
 	return out.str();
 }
 
-TEST(Chapter7, Example3) {
+TEST(Chapter7, Exercise51) {
 
 	EXPECT_EQ("constructing noisy\nnoisy and big: a big, big buffer\ndestroying noisy\n", TestCase());
 }
